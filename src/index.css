@@ -1,0 +1,122 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #cc985b;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.app {
+  background-color: #1a1b21;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 7px;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+button:hover {
+  border: #cc985b 3px solid;
+  cursor: pointer;
+}
+
+.--header {
+  line-height: 1rem;
+}
+.--header_profile-pic {
+  max-width: 500px;
+}
+
+.--header_content {
+  padding: 25px;
+}
+
+.--header_content > h1 {
+  font-size: 35px;
+}
+
+.--header_content > h4 {
+  color: #cc985b;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.--header_content > p {
+  font-size: 14px;
+}
+
+.--header_content_email-button {
+  background-color: white;
+  color: black;
+}
+
+.--header_content_linkedin-button {
+  background-color: #5093e2;
+  color: white;
+}
+
+.email-logo, .linkedin-logo {
+  margin-right: 10px;
+  height: 12px;
+}
+
+main {
+  text-align: left;
+  padding: 0 50px 0;
+  margin: 10px 0 50px 0;
+}
+
+main > h2 {
+  margin: 0;
+}
+
+footer {
+  background-color: #161619;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.--footer_icon {
+  height: 40%;
+}
+
+.--footer_icon:hover {
+  cursor: pointer;
+
+}
